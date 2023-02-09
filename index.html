@@ -27,19 +27,24 @@
             <form>
                 <div class="form_group">
                     <label for="name">Nome</label>
-                    <input type="text" name="name" placeholder="Digite o seu nome">
+                    <input type="text" name="name" placeholder="Digite o seu nome" required>
+                    <span class="validity"></span>
+
                 </div>
             </form>
             <form>
                 <div class="form_group">
                     <label for="email">email</label>
-                    <input type="email" name="email" placeholder="Digite o seu  melhor email">
+                    <input type="email" name="email" placeholder="Digite o seu  melhor email" required>
+                    <span class="validity"></span>
+
                 </div>
             </form>
             <form>
                 <div class="form_group">
                     <label for="phone">Contato</label>
-                    <input type="phone" name="phone" placeholder="Digite o seu watzap">
+                    <input id="inputPhone" type="number" name="phone" maxlength="11"  placeholder="Digite o seu watzap" required>
+                    <span class="validity"></span>
                 </div>
             </form>
             <form>

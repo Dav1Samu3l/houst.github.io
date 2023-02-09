@@ -15,4 +15,5 @@ function submit() {
         localStorage.setItem('interest', interest);
     });
 }
-submit()
+
+submit();
